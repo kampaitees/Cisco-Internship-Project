@@ -85,18 +85,23 @@ data point as normal/anomalous.
 
 Slide:14
 
+These are the Z score calculated for our earlier datapoint and provided threshold is 3. After comparing with the threshold our 
+algortihm easily detect that 96 is an anomaly while rest of the points are normal.
+
+Slide:15
+
 These are the results which I got after applying the algorithm to the Webex data.
 We can see that all the six metrics are having anomalies at nearly the same data points. So we can say that the algorithm 
 works pretty well.
 (...)
 
-Slide:15
+Slide:16
 
 The second algorithm which I have used for the detection is Isolation forest. It is a very complex algorithm. It works on 
 the decision trees and is an unsupervised learning algorithm i.e, it does not require any label to tell it what is an anomaly
 and what is normal.
 
-Slide:16
+Slide:17
 
 The intuition is:
 As we know that anomaly percentage is very less in the dataset as compared to the normal data points. The algorithm takes 
@@ -105,27 +110,27 @@ normal points it will take time to isolate them and since the anomalous point is
 isolated quickly. The algorithm also gives an anomalous score to every datapoint which will decide how severe is the anomaly.
 You can check more details about the algorithm here.
 
-Slide:17
+Slide:18
 
 These are the results which I got after applying the algorithm.
 And they are pretty similar to those by applying the MAD algorithm.
 (....)
 
-Slide:18
+Slide:19
 
 The third algorithm which I had used for detecting anomalies is an open-source library by LinkedIn names Luminol.
 
-Slide:19
+Slide:20
 
 So it also works pretty similar to an earlier algorithm, it will take dictionary as an input with keys as timestamps and 
 value as the metric. And result out the time window where an anomaly is found and also gives back anomaly score for knowing 
 the severity of anomaly. More about the library can be known by clicking the link.
 
-Slide:20
+Slide:21
 
 Here are the results after applying the algorithm. 
 (....)
 
-Slide:21
+Slide:22
 
 Here is the implementation of all the algorithm and data preprocessing which I had done for detecting anomalies.
