@@ -28,16 +28,16 @@ while rest of the points are classified as normal.
 
 Slide:5
 
-Our data from Cisco Webex servers include the following six metrics:-
-CPU usage, memory consumption, IOPS, write latency, read latency using which we are 
-going to detect anomalies.
-
-Slide:6
-
 Consider the following plot, we can easily identify by just seeing that what is an 
 anomaly and what is normal. The data points which are following the trend are 
 normal while which are not following are considered as abnormal. So it's very easy 
 for us to classify between normal and anomalous behaviour.
+
+Slide:6
+
+Our data from Cisco Webex servers include the following six metrics:-
+CPU usage, memory consumption, IOPS, write latency, read latency using which we are 
+going to detect anomalies.
 
 Slide:7
 
@@ -136,7 +136,7 @@ Slide:18
 
 These are the results which I got after applying the algorithm.
 And they are pretty similar to those by applying the MAD algorithm.
-(....)
+(....).
 
 Slide:19
 
