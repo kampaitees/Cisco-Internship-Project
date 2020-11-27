@@ -1,0 +1,34 @@
+It stands for vehicular ad hoc network so it is a wireless ad hoc network that provides communication among vehicles with On Board
+units(OBUs) and nearby Road Side Units(RSUs) between cars and trucks and also roadside units such as antennas & buildings. The 
+purpose of VANET is to provide: connectivity while on the road to mobile users and Efficient V2V communications that enable the 
+(International Transportation System) also known as ITS. VANET differ in size & speed of vehicles, relevance of geographic 
+positions due to these differences it shows many challenging research issues such as routing, data replication, data sharing and
+data security. So why we want digital communication between them & the reason is we want digital communication between anything to 
+relay information like Internet information so that we can communicate between vehicles as we can see in red lines. There are three 
+types of communication in VANET there are V2V communication, vehicle-to-roadside communication and inter-roadside communication.In 
+v2v communication we communicate between various vehicles, whereas in vehicle-to-roadside communication we communicate between 
+vehicles & roadside units it could be a grocery store or a land, it could be traffic light could be anything that's on the roadside. 
+The blue lines here indicate vehicle-to-roadside communication. In inter roadside communication we have communication between two 
+traffic lights or between traffic light and other types of devices so let's take a look at the kinds of things we might do in a 
+VANET. There are basically three things that we would do in VANETs one is safety management second is traffic management and third 
+is Internet services such as YouTube or any Internet service. 
+
+So let's consider a scenario where car A is very close to car B those two cars might be driving together for quite some time and at 
+anytime one car might get too close and can be in a position to get into an accident with the other car if these two cars have digital 
+communications that are fast enough to recognize that that's going to happen before it happens it could alert the drivers in future 
+versions of cars if those cars had driverless control where there's no driver controlling it theoretically the digital communications 
+could make sure that these cars never crashed as long as they had the capability to stop right so safety is a big issue. There can be 
+a situations where police vehicles or other types of emergency responders may need to gather information from other vehicles that 
+aren't directly within range if all of them have wireless communication devices then the emergency vehicle can get information about 
+accidents that it can route itself or find out and whatever it may need to do that's also a safety issue.
+
+VANET communication can be used for many potential applications, some potential application include applications like Collision Alert, 
+Road Condition warnings, Merge assistance, Deceleration warning. The main emphasis is considered for safety applications for VANET and 
+for this they have to have a timely dissemination of safety critical alters given to nearby vehicles. VANETs can also be used for 
+Internet connectivity which would be like accessing emails, web browing, audio & video streaming. These are some connectivity related 
+applications where emphasis is on high bandwidth for a stable internet connectivity. GPS & navigation systems can also be benefits 
+from VANET communication and they can be integrated with our traffic reports therefore being able to provide the fastest route to 
+end users. Destination toll roads can benefit from VANET by automatically collecting tolls. So there are lots of potential application 
+of VANET.
+
+Not let's move onto the issues in VANET environment.
